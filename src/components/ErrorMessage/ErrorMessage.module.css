@@ -1,0 +1,21 @@
+.error__content {
+    text-align: center;
+}
+
+.error__text {
+    margin-top: 0;
+    line-height: 1.4;
+    font-family: var(--font-family-marvel);
+    color: black;
+    font-size: var(--font-size-header);
+    text-shadow: 0 0 5px var(--color-red-text);
+    -webkit-text-stroke-color: var(--color-black-text);
+    -webkit-text-stroke-width: .15px;
+    -webkit-text-fill-color: transparent;
+}
+
+.error__gif {
+    width: 480px;
+    height: 202px;
+    margin: auto;
+}

@@ -1,0 +1,38 @@
+.error__page {
+
+}
+
+.error__code {
+    margin: 0;
+    padding: 0;
+    font-size: 125px;
+    font-family: var(--font-family-marvel);
+    color: var(--color-black-text);
+    text-shadow: 0 0 8px var(--color-red-text);
+    -webkit-text-stroke-color: var(--color-black-text);
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-fill-color: transparent;
+}
+
+.text {
+    margin-top: var(--spacing-large);
+    font-size: var(--font-size-subheader);
+    color: var(--color-black-text);
+    font-family: var(--font-family-marvel);
+    font-weight: var(--font-bold);
+    text-shadow: 0 0 5px var(--color-red-text);
+    vertical-align: middle;
+}
+
+.text u {
+    text-decoration: none;
+}
+
+.text h1 {
+    margin-top: 0;
+}
+
+.error__image {
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Marvel&display=swap');
+:root {
+    --font-family-main: sans-serif;
+    --font-family-marvel: 'Marvel', sans-serif;
+    --font-size-header: 38px;
+    --font-size-subheader: 20px;
+    --font-size-main: 16px;
+    --font-bold: 700;
+
+    --margin-list: 2px;
+
+    --width-max: 1200px;
+
+    --color-red-text: #ED1D24;
+    --color-black-text: black;
+    --color-white-text: white;
+    --color-blue-text: #696fff;
+
+    --theme-light-header: #FF3D00;
+    --theme-dark-header: #696fff;
+    --theme-neutral-header: #232227;
+
+    --theme-default-header: var(--theme-neutral-header);
+
+    --color-light-black: #232227;
+    --color-light-purple: #696fff;
+    --color-blue: #266EF6;
+    --color-purple: #BF00FF;
+    --color-orange: #FF8B00;
+    --color-red: #C60404;
+    --color-yellow: #FFD300;
+    --color-green: #35B535;
+
+    --box-shadow-white:
+        0 16px 24px 2px rgba(255, 255, 255, 0.02),
+        0 6px 30px 5px rgba(255, 255, 255, 0.04),
+        0 8px 10px -5px rgba(255, 255, 255, 0.1);
+
+    --box-shadow-black:
+            0 16px 24px 2px rgba(0, 0, 0, 0.5),
+            0 6px 30px 5px rgba(0, 0, 0, 0.1),
+            0 8px 10px -5px rgba(0, 0, 0, 0.2);
+
+    --spacing-ultraSmall: 4px;
+    --spacing-small: 10px;
+    --spacing-medium: 20px;
+    --spacing-large: 30px;
+
+    --trnsition: .4s;
+
+    --border-radius-small: 3px;
+    --border-radius-medium: 5px;
+
+    --theme-start-image: url('../static/end.png');
+    --theme-light-image: url('../static/goodsight.png');
+    --theme-dark-image: url('../static/badsight.png');
+    --theme-neutral-image: url('../static/deadpool.jpg');
+
+    --theme-default-image: var(--theme-start-image);
+
+
+    --error-image: url('../pages/NotFoundPage/img/mjolnir404.png');
+    --shield-image: url('../components/PersonPage/PersonActivity/img/captain-america-shield-13x13.svg')
+}
+
+*, *:after, *:before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: var(--font-size-main);
+    background-image: var(--theme-default-image);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-attachment: fixed;
+
+}
+
+img {
+    display: block;
+}
+
+.header__text {
+    line-height: 1.7;
+    font-size: var(--font-size-header);
+    color: var(--theme-default-header);
+    text-shadow: 3px 1px 5px var(--color-black-text);
+}
+
+/****************
+SCROLL BAR
+/*****************/
+
+* {
+    scrollbar-color: var(--color-light-purple) var(--color-light-black);
+    scrollbar-width: thin;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: var(--color-light-purple);
+    border-radius: 2px;
+}
+::-webkit-scrollbar-track {
+    background-color: var(--color-light-black);
+}
+::-webkit-scrollbar-corner {
+    background-color: var(--color-light-black);
+}
+
+
+
+
+
+

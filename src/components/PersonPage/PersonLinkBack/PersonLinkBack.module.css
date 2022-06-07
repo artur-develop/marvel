@@ -1,0 +1,15 @@
+.link {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 15px;
+    font-weight: bold;
+    color: var(--color-yellow);
+    text-decoration: none;
+}
+
+.link__img {
+    height: 35px;
+    width: 35px;
+    object-fit: cover;
+    object-position: center center;
+}
