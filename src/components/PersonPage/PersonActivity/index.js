@@ -1,1 +1,1 @@
-export { default } from './PersonActivity'
+export { default } from "./PersonActivity";

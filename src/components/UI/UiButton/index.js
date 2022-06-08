@@ -1,1 +1,1 @@
-export { default } from './UiButton'
+export { default } from "./UiButton";

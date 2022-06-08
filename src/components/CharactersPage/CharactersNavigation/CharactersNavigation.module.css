@@ -1,5 +1,5 @@
 .buttons {
-    display: flex;
-    justify-content: center;
-    margin: var(--spacing-small);
+  display: flex;
+  justify-content: center;
+  margin: var(--spacing-small);
 }

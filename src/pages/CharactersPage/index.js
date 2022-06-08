@@ -1,1 +1,1 @@
-export { default } from './CharactersPage';
+export { default } from "./CharactersPage";

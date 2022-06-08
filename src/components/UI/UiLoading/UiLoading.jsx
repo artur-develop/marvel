@@ -1,15 +1,9 @@
-import React from 'react';
-import infinityLoader from './img/infinityLoader.svg'
-import styles from './UiLoading.module.css'
+import React from "react";
+import infinityLoader from "./img/infinityLoader.svg";
+import styles from "./UiLoading.module.css";
 
 const UiLoading = () => {
-    return (
-        <img
-            className={styles.loader}
-            src={infinityLoader}
-            alt="Loader"
-        />
-    );
+  return <img className={styles.loader} src={infinityLoader} alt="Loader" />;
 };
 
 export default UiLoading;

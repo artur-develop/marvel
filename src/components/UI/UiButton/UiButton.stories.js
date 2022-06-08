@@ -2,34 +2,34 @@ import React from "react";
 import UiButton from "./UiButton";
 
 export default {
-    title: 'Ui-kit/UiButton',
-    component: UiButton,
-}
+  title: "Ui-kit/UiButton",
+  component: UiButton,
+};
 
 const Template = (args) => <UiButton {...args} />;
 
 const props = {
-    text: 'Hello',
-    onClick: () => console.log('CLICK'),
-    disabled: false,
-    theme: '',
-    classes: '',
-}
+  text: "Hello",
+  onClick: () => console.log("CLICK"),
+  disabled: false,
+  theme: "",
+  classes: "",
+};
 
 export const Light = Template.bind({});
 Light.args = {
-    ...props,
-    theme: 'light'
+  ...props,
+  theme: "light",
 };
 
 export const Dark = Template.bind({});
 Dark.args = {
-    ...props,
-    theme: 'dark'
+  ...props,
+  theme: "dark",
 };
 
 export const Disabled = Template.bind({});
 Disabled.args = {
-    ...props,
-    disabled: true
+  ...props,
+  disabled: true,
 };

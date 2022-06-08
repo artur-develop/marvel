@@ -1,31 +1,31 @@
 .container {
-    position: relative;
-    top: 0;
-    left: 0;
-    margin-left: auto;
-    flex-shrink: 0;
+  position: relative;
+  top: 0;
+  left: 0;
+  margin-left: auto;
+  flex-shrink: 0;
 }
 
 .counter {
-    position: absolute;
-    top: 10px;
-    right: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 20px;
-    height: 20px;
-    font-size: 24px;
-    font-weight: bold;
-    font-family: var(--font-family-marvel);
-    text-decoration: none;
-    color: var(--color-black);
-    background-color: var(--color-white);
-    border-radius: 50%;
-    box-shadow: var(--box-shadow-white);
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: var(--font-family-marvel);
+  text-decoration: none;
+  color: var(--color-black);
+  background-color: var(--color-white);
+  border-radius: 50%;
+  box-shadow: var(--box-shadow-white);
 }
 
 .icon {
-    object-fit: cover;
-    object-position: center center;
+  object-fit: cover;
+  object-position: center center;
 }

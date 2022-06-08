@@ -6,15 +6,15 @@
 --theme-neutral-УникальноеИмя   # для "neutral"
  */
 
-export const changeCssVariables = theme => {
-    const root = document.querySelector(':root');
+export const changeCssVariables = (theme) => {
+  const root = document.querySelector(":root");
 
-    const cssVariables = ['header', 'image'];
+  const cssVariables = ["header", "image"];
 
-    cssVariables.forEach(element => {
-        root.style.setProperty(
-            `--theme-default-${element}`,
-            `var(--theme-${theme}-${element})`
-        );
-    })
-}
+  cssVariables.forEach((element) => {
+    root.style.setProperty(
+      `--theme-default-${element}`,
+      `var(--theme-${theme}-${element})`
+    );
+  });
+};

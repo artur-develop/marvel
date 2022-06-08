@@ -1,17 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Marvel&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Marvel&display=swap");
 :root {
-    --font-size-small: 18px;
-    --font-family-marvel: 'Marvel', sans-serif;
-    --transition: .4s;
-    --color-white: white;
-    --color-black: black;
-    --color-gray: gray;
+  --font-size-small: 18px;
+  --font-family-marvel: "Marvel", sans-serif;
+  --transition: 0.4s;
+  --color-white: white;
+  --color-black: black;
+  --color-gray: gray;
 }
 
-*, *:after, *:before {
-    box-sizing: border-box;
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
 }
 
 img {
-    display: block;
+  display: block;
 }
